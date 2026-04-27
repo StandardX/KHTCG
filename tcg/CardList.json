@@ -1,0 +1,146 @@
+{
+  "AC1": {
+    "id": "AC1",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Avatar Card",
+        "cost": 0,
+        "image": "https://github.com/StandardX/KHTCG/blob/main/tcg/Cards/AC/image.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sora, Keyblade Wielder",
+    "type": "Avatar Card",
+    "cost": 0
+  },
+  "AC2": {
+    "id": "AC2",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Avatar Card",
+        "cost": 0,
+        "image": "https://github.com/StandardX/KHTCG/blob/main/tcg/Cards/AC/image1.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Darkside <HL>",
+    "type": "Avatar Card",
+    "cost": 0
+  },
+  "EC1": {
+    "id": "EC1",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Moogle Badge",
+        "type": "Equipment Card",
+        "cost": 0,
+        "image": "https://github.com/StandardX/KHTCG/blob/main/tcg/Cards/EC/image1.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Moogle Badge",
+    "type": "Equipment Card",
+    "cost": 0
+  },
+  "EC2": {
+    "id": "EC2",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ribbon",
+        "type": "Equipment Card",
+        "cost": 0,
+        "image": "https://github.com/StandardX/KHTCG/blob/main/tcg/Cards/EC/image.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ribbon",
+    "type": "Equipment Card",
+    "cost": 0
+  },
+  "IC1": {
+    "id": "IC1",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Item Card",
+        "cost": 0,
+        "image": "https://github.com/StandardX/KHTCG/blob/main/tcg/Cards/IC/image1.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Hi-Refocuser",
+    "type": "Item Card",
+    "cost": 0
+  },
+  "LC1": {
+    "id": "LC1",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Limit Card",
+        "cost": 0,
+        "image": "https://github.com/StandardX/KHTCG/blob/main/tcg/Cards/LC/image.png?raw=true",
+        "isHorizontal": true
+      }
+    },
+    "name": "Destiny's Woven Sky, Land & Sea",
+    "type": "Limit Card",
+    "cost": 0
+  },
+  "RC1": {
+    "id": "RC1",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Reprisal Card",
+        "cost": 0,
+        "image": "https://github.com/StandardX/KHTCG/blob/main/tcg/Cards/RC/image.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Overconfident Stance",
+    "type": "Reprisal Card",
+    "cost": 0
+  },
+  "WC1": {
+    "id": "WC1",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "World Card",
+        "cost": "0",
+        "image": "https://github.com/StandardX/KHTCG/blob/main/tcg/Cards/WC/image.png?raw=true",
+        "isHorizontal": true
+      }
+    },
+    "name": "Destiny Islands",
+    "type": "World Card",
+    "cost": 0
+  },
+  "AC3": {
+    "id": "AC3",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://github.com/StandardX/KHTCG/blob/main/tcg/Cards/AC/image3.png?raw=true",
+        "isHorizontal": false
+      }
+    },
+    "name": "Kairi, Childhood Friend",
+    "type": "Avatar Card",
+    "cost": 0
+  }
+}
