@@ -17,7 +17,12 @@
     "Level",
     "Name"
   ],
-  "formats": [],
+  "formats": [
+    {
+      "name": "Classic",
+      "sections": ["main", "side"]
+    }
+  ],
   "decks": {
     "main": {
       "title": "Main Deck",
