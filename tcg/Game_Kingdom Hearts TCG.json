@@ -8,7 +8,7 @@
   "customHelp": "",
   "cardRotation": 45,
   "cards": {
-    "dataUrl": "https://github.com/StandardX/KHTCG/blob/main/tcg/CardList.json",
+    "dataUrl": "https://raw.githubusercontent.com/StandardX/KHTCG/main/tcg/CardList.json",
     "cardBack": ""
   },
   "deckBuilding": {
