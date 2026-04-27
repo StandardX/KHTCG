@@ -11,31 +11,33 @@
     "dataUrl": "https://raw.githubusercontent.com/StandardX/KHTCG/main/tcg/CardList.json",
     "cardBack": ""
   },
-"deckBuilding": {
-  "mainFilters": [
-    "Type",
-    "Level",
-    "Name"
-  ],
-  "formats": [
-    {
-      "name": "Classic",
-      "sections": ["main", "side"]
+
+  "deckBuilding": {
+    "mainFilters": [
+      "Type",
+      "Level",
+      "Name"
+    ],
+    "formats": [
+      {
+        "name": "Classic",
+        "sections": ["main", "side"]
+      }
+    ],
+    "decks": {
+      "main": {
+        "title": "Main Deck",
+        "min": 0,
+        "max": 60
+      },
+      "side": {
+        "title": "Side Deck",
+        "min": 0,
+        "max": 15
+      }
     }
-  ],
-  "decks": {
-    "main": {
-      "title": "Main Deck",
-      "min": 0,
-      "max": 60
-    },
-    "side": {
-      "title": "Side Deck",
-      "min": 0,
-      "max": 15
-    }
-  }
-},
+  },
+
   "gameplay": {
     "Classic": {
       "mulligan": {
@@ -53,10 +55,9 @@
       },
       "defaultNotes": "",
       "tokens": [],
-      "countersStartingValues": [
-        "2"
-      ],
+      "countersStartingValues": ["2"],
       "hideFacedDownCards": false,
+
       "sections": {
         "customSections": [
           "Elemental Power",
@@ -70,34 +71,13 @@
               "direction": "row",
               "style": false,
               "content": [
-                {
-                  "section": "Front Row",
-                  "style": false
-                },
-                {
-                  "section": "Front Row",
-                  "style": false
-                },
-                {
-                  "section": "Front Row",
-                  "style": false
-                },
-                {
-                  "section": "Front Row",
-                  "style": false
-                },
-                {
-                  "section": "Front Row",
-                  "style": false
-                },
-                {
-                  "section": "Front Row",
-                  "style": false
-                },
-                {
-                  "section": "Front Row",
-                  "style": false
-                }
+                { "section": "Front Row", "style": false },
+                { "section": "Front Row", "style": false },
+                { "section": "Front Row", "style": false },
+                { "section": "Front Row", "style": false },
+                { "section": "Front Row", "style": false },
+                { "section": "Front Row", "style": false },
+                { "section": "Front Row", "style": false }
               ],
               "isSymetricalForOpponents": false
             },
@@ -105,46 +85,29 @@
               "direction": "row",
               "style": false,
               "content": [
-                {
-                  "section": "LC Space",
-                  "style": false
-                },
-                {
-                  "section": "Back Row",
-                  "style": false
-                },
-                {
-                  "section": "Back Row",
-                  "style": false
-                },
-                {
-                  "section": "Back Row",
-                  "style": false
-                },
-                {
-                  "section": "Back Row",
-                  "style": false
-                },
-                {
-                  "section": "Back Row",
-                  "style": false
-                },
-                {
-                  "section": "Back Row",
-                  "style": false
-                }
+                { "section": "LC Space", "style": false },
+                { "section": "Back Row", "style": false },
+                { "section": "Back Row", "style": false },
+                { "section": "Back Row", "style": false },
+                { "section": "Back Row", "style": false },
+                { "section": "Back Row", "style": false },
+                { "section": "Back Row", "style": false }
               ],
               "isSymetricalForOpponents": false
             }
           ]
         },
+
         "categoriesAlreadyOnBoard": [
           "Main Deck",
           "Side Deck"
         ],
+
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
+
         "sectionsDict": {
+
           "Elemental Power": {
             "title": "Elemental Power",
             "isHidden": "yes",
@@ -159,8 +122,10 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
-            "noQuickActions": false
+            "noQuickActions": false,
+            "isDictionary": false
           },
+
           "Power": {
             "title": "Power",
             "isHidden": "no",
@@ -175,7 +140,62 @@
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "isDictionary": false
+          },
+
+          "Front Row": {
+            "title": "Front Row",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Front Row",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false,
+            "isDictionary": false
+          },
+
+          "Back Row": {
+            "title": "Back Row",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Back Row",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false,
+            "isDictionary": false
+          },
+
+          "LC Space": {
+            "title": "LC Space",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "LC Space",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false,
+            "isDictionary": false
           }
         }
       }
