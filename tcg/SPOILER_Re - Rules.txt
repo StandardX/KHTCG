@@ -1,0 +1,212 @@
+*Terminology at bottom of document
+**Rules subject to change
+***Suggestions, corrections and critique welcome
+
+Basics
+	Players agree on a max HP, which they begin with at the start of the match
+	HP may not be increased beyond the initial amount in any way during a match
+	When a turn ends and a player has 0HP, that player loses
+	In the event of both players having 0HP when a turn ends, a new turn begins and each player has 1HP, this is known as "Critical Time"
+	If a turn ends with both players having 0HP during Critical Time, the match is a tie
+	Players begin the match with an amount of Power equal to their initial HP divided by 20 rounded up
+	Before the first Draw Phase of a match, players may set a WC in their respective WC space
+	Before the first Draw Phase of a match, players draw 5 cards
+	The max hand size is 7 by default, if excess cards are drawn, the player must discard until their hand is at 7 exactly before the match continues
+	The max hand size may be increased by card effects
+	If a player has no cards left to draw, they instead gain 1 Power whenever they would draw a card
+	If a card effect demands the player to discard but they have no cards in their hand, they instead lose 1 EP of their choice
+	Turns are separated into Phases which proceed in this order: Draw Phase > Prep Phase > Battle Phase > Rest Phase > End Phase
+	
+Power & Elemental Power Breakdown
+	Power is gained during the first Draw Phase of a match, it is equal to the max amount of HP players start with divided by 20 rounded up, i.e. 200 initial max HP is 10 Power
+	Whenever Power is gained, it must immediately be converted into EP as desired by its owner
+	There is no limit to the amount of Power which can be gained or held, same for EP
+	Once Power has been converted into EP, it may not be converted back nor swapped for other EP types
+	Power may be given to the other player when gained only if both players agree to this, but not EP
+	Power and EP are both public information to both players
+	
+Draw Phase Breakdown
+	Players draw 1 card each from their Main Deck
+	A coin is flipped and the winner of the coinflip goes first for the rest of this turn, or both players can agree who goes first
+	No cards may be placed
+	No Commands may be activated
+	No Attacks may be made
+	This Phase ends after the players finish drawing cards and the coinflip is completed
+	
+Prep Phase Breakdown
+	Players take turns performing actions
+	Cards may be placed
+	Commands may be activated
+	No Attacks may be made
+	This Phase ends when both players are satisfied or when no possible actions may be performed
+	
+Battle Phase Breakdown
+	Players take turns performing actions
+	No cards may be placed
+	Commands may be activated
+	Attacks may be made
+	This Phase ends when no further Attacks may be made, even if Commands were still possible
+	
+Rest Phase Breakdown
+	Player's take turns using IC from their hand
+	No other actions may be performed
+	This Phase ends when both players are satisfied or when no ICs can be played
+	
+End Phase
+	Player HP is considered for determining the match outcome
+	No actions may be performed
+	Abilities do not activate unless they specify doing so during the End Phase
+	This Phase ends when nothing else which requires the End Phase needs attention
+	When this Phase ends, 1 turn is considered to have passed for the purposes effects concerned with turns
+	
+Main Deck
+	A Main Deck has exactly 20 cards
+	At least 1 AC must be present in the Main Deck
+	No more than 3 copies of any card may be in the Main Deck
+	The total combined Levels of cards in the Main Deck may not exceed 100
+	The above only needs to be true when the match starts
+
+Side Deck
+	There is no limit to the max amount of cards in the Side Deck
+	At least 1 WC must be present in the Side Deck
+	No copies of any card may exist in the Side Deck
+	The above only needs to be true when the match starts
+	The player may peruse their Side Deck at any time
+	
+Field
+	Each player has the following spaces on their side of the field:
+		Front Row x6
+		Back Row x6
+		WC Space x1
+		LC Space x1
+		ROD x1
+		Main Deck x1
+		Side Deck x1
+	
+Realm Of Darkness
+	Cards which are destroyed or discarded are placed in their respective owner's ROD
+	Cards do not activate in any way from the ROD
+	Players may peruse the RODs at any time
+	
+Avatar Cards
+	These are added to the Main Deck
+	No copy of any AC may be present in the Main Deck
+	ACs are placed in the FR
+	ACs may Attack once per turn by default
+	ACs possess the following traits:
+		Level
+		Element x1 or 2
+		Ability x2 (For ACs these activate any number of times when the proper EP is present)
+		Command x1
+
+Group Cards
+	These are added to the Main Deck
+	GCs are placed in the FR
+	GCs may Attack once per turn by default
+	GCs possess the following traits:
+		Level
+		Element x1
+		Ability x1
+		Command x1
+		
+Form Cards
+	These are added to the Side Deck
+	FCs are placed in the FR, atop an applicable card
+	FCs may perform 2 actions per turn comprised of Attacks and Commands
+	FCs possess the following traits:
+		Level
+		Element x1 or x2
+		Ability x1 (like ACs, these activate any number of times when the proper EP is present)
+		Command x2
+		
+Equipment Cards
+	These are added to the Main Deck
+	ECs are placed in the BR
+	ECs must be directly below their wielder and if they aren't, they are destroyed
+	ECs may be turned inactive by their owner during the Draw Phase only
+	Inactive ECs may be returned to the hand during the End Phase only
+	ECs possess the following traits
+		Level
+		Equip: Requirements for attaching to FR cards
+		Boost: The bonus Levels (if any) granted to the wielder
+		Bond: If the wielder's name starts with any of the words listed for Bond, the wielder gains +1 Level
+		Ability x1
+		
+Reprisal Cards
+	These are added to the Main Deck
+	RCs are placed facedown in the BR
+	RCs may only be flipped faceup by their owner if their Command would activate in response to an action
+	RCs are destroyed after their Command is activated
+	RCs possess the following traits:
+		Level
+		Command x1
+		
+World Cards
+	These are added to the Side Deck
+	1 WC is placed in the WC space on the field before the first Draw Phase if desired
+	WCs may only be swapped for another if their unique conditions allow it and only during the End Phase
+	WCs generate EP during the Draw Phase
+	WCs possess the following traits:
+		Level
+		Element: FR cards which share at least 1 Element with their allied WC gain 1 Level, or 2 if both Elements match
+		Route: this determines which WC may be swapped in next
+		Core: this determines how much Power/EP is generated per turn
+		Order: this determines the bonus Residents receive
+		Residents: allied FR cards sharing the first word in their name with those listed on the WC
+		
+Limit Cards
+	These are added to the Side Deck
+	1 LC may be placed facedown in the LC space on the field during the Prep Phase
+	LCs must be turned faceup when their Break condition is met
+	LCs remain faceup as long as their Break condition is met, once it is not, they are destroyed
+	LCs possess the following traits:
+		Level
+		Element x1 or x2
+		Break: this determines when the LC is activated and what bonuses it provides while active
+		
+Item Cards
+	These are added to the Main Deck
+	ICs may only be played during the Rest Phase
+	ICs are played from the hand directly
+	ICs are destroyed after their Command activates
+	ICs possess the following traits:
+		Level
+		Command x1 (some ICs have an "OR" to allow for more optimal use)
+
+Terminology
+	HP: Health Points
+	Heal: Restore HP, does not go over the initial max HP
+	Damage: Remove HP, does not go below 0
+	Drain: Remove HP from one player and give it to the other
+	Power: Resource for increasing EP, must be converted to EP immediately when gained
+	EP: Elemental Power, necessary for some Abilities
+	Ability: Automatically activate when conditions are met
+	Command: Typically may activate once, conditions may apply
+	Discard: Send card(s) to the ROD from the hand
+	Destroy: Send card(s) to the ROD from the field
+	Place: Put a card in the spot it is allowed to go to on the field
+	Set: A card which exists on the field outside of a deck or the ROD is considered to be "set"
+	Foe: The player on the other side of the field
+	Opposing: A foe's set cards are considered to be "opposing"
+	Allied: Your set cards are considered to be "allied"
+	Attack: Use a card's Level to deal damage to the foe's HP
+	Attacker: A card performing an Attack is considered to be an "Attacker"
+	Negate: Typically for Attacks, this means the action is canceled without any further effect
+	Draw: To pick up from the Main Deck
+	AC: Avatar Card
+	GC: Group Card
+	FC: Form Card
+	EC: Equipment Card
+	RC: Reprisal Card
+	WC: World Card
+	LC: Limit Card
+	IC: Item Card
+	ROD: Realm Of Darkness, discarded and destroyed cards go here
+	FR: Front Row, AC/GC/FC go here when placed
+	BR: Back Row, EC/RC go here when placed
+	Faceup: A card with its details displayed openly is considered "faceup", faceup cards may be examined by either player at any time
+	Facedown: A card with its details hidden is considered "facedown", facedown cards may be examined at any time by the player who placed them only
+	Active: A card placed in the orientation matching its designated space on the field is considered "active", vertical for all cards except WCs/LCs
+	Inactive: A card turned to the opposite of its usual orientation is considered "inactive. Inactive cards do not do anything except take up a space on the field unless otherwise stated in their details
+	Wielder: An FR card with an attached EC is considered the "wielder" of the EC
+	Resident: Characters listed on WCs are Residents, allied FR cards whose names start with these
