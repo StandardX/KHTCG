@@ -11,14 +11,26 @@
     "dataUrl": "https://raw.githubusercontent.com/StandardX/KHTCG/main/tcg/CardList.json",
     "cardBack": ""
   },
-  "deckBuilding": {
-    "mainFilters": [
-      "Type",
-      "Level",
-      "Name"
-    ],
-    "formats": []
-  },
+"deckBuilding": {
+  "mainFilters": [
+    "Type",
+    "Level",
+    "Name"
+  ],
+  "formats": [],
+  "decks": {
+    "main": {
+      "title": "Main Deck",
+      "min": 0,
+      "max": 60
+    },
+    "side": {
+      "title": "Side Deck",
+      "min": 0,
+      "max": 15
+    }
+  }
+},
   "gameplay": {
     "Classic": {
       "mulligan": {
