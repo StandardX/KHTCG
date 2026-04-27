@@ -12,32 +12,37 @@
     "cardBack": ""
   },
 
-"deckBuilding": {
-  "mainFilters": [
-    "Type",
-    "Level",
-    "Name"
-  ],
-  "formats": [
-    {
-      "name": "Classic",
-      "sections": ["main", "side"]
+  "deckBuilding": {
+    "mainFilters": [
+      "Type",
+      "Level",
+      "Name"
+    ],
+    "formats": [
+      {
+        "name": "Classic",
+        "sections": ["main", "side"]
+      },
+      {
+        "name": "Dummy",
+        "sections": ["main", "side"]
+      }
+    ],
+    "defaultFormat": "Classic",
+    "decks": {
+      "main": {
+        "title": "Main Deck",
+        "min": 0,
+        "max": 60
+      },
+      "side": {
+        "title": "Side Deck",
+        "min": 0,
+        "max": 15
+      }
     }
-  ],
-  "defaultFormat": "Classic",
-  "decks": {
-    "main": {
-      "title": "Main Deck",
-      "min": 0,
-      "max": 60
-    },
-    "side": {
-      "title": "Side Deck",
-      "min": 0,
-      "max": 15
-    }
-  }
-},
+  },
+
   "gameplay": {
     "Classic": {
       "mulligan": {
