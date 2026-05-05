@@ -81,7 +81,7 @@
             {
               "direction": "column",
               "style": {
-                "width": "80vh",
+                "width": "70vh",
                 "marginRight": "auto",
                 "marginLeft": "auto"
               },
@@ -168,23 +168,27 @@
                     {
                       "section": "Extra_Deck",
                       "style": {
-                        "marginRight": "4vh"
+                        "marginLeft": "4vh"
                       }
                     },
                     {
                       "section": "Limit_Card",
                       "style": {
-                        "marginRight": "4vh"
+                        "marginLeft": "4vh"
                       }
                     },
                     {
                       "section": "ROD",
                       "style": {
-                        "marginRight": "4vh"
+                        "marginRight": "auto",
+                        "marginLeft": "auto"
                       }
                     },
                     {
-                      "section": "World_Card"
+                      "section": "World_Card",
+                      "style": {
+                        "marginRight": "4vh"
+                      }
                     }
                   ]
                 }
@@ -385,12 +389,12 @@
             "title": "ROD",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "NONE",
+            "alignment": "DECK",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "ROD",
-            "noQuickActions": true,
+            "noQuickActions": false,
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
