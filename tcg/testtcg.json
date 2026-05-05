@@ -69,7 +69,13 @@
           "Spells_4",
           "Spells_5",
           "Spells_6",
-          "Extra_Deck"
+          "Extra_Deck",
+          "Extra_Monster_1",
+          "Extra_Monster_2",
+          "Field",
+          "ROD",
+          "World_Card",
+          "Limit_Card"
         ],
         "layout": {
           "direction": "row",
@@ -188,20 +194,34 @@
                       "section": "Spells_6"
                     }
                   ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "Extra_Deck",
+                      "style": {
+                        "marginRight": "4vh"
+                      }
+                    },
+                    {
+                      "section": "Limit_Card",
+                      "style": {
+                        "marginRight": "4vh"
+                      }
+                    },
+                    {
+                      "section": "ROD",
+                      "style": {
+                        "marginRight": "4vh"
+                      }
+                    },
+                    {
+                      "section": "World_Card"
+                    }
+                  ]
                 }
               ]
-            },
-            {
-              "direction": "row",
-              "style": {
-                "width": "12vh"
-              },
-              "content": [
-                {
-                  "section": "Extra_Deck"
-                }
-              ],
-              "isSymetricalForOpponents": true
             }
           ]
         },
@@ -424,15 +444,30 @@
             "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "Field": {
-            "title": "Field",
+          "World_Card": {
+            "title": "World_Card",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Field",
+            "displayedTitle": "World Card",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Limit_Card": {
+            "title": "Limit_Card",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Limit Card",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
