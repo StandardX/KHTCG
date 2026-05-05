@@ -29,7 +29,9 @@
       "title": "Classic",
       "gameplay": "Classic",
       "customCategories": [
-        "Extra deck"
+        "Limit Card",
+        "Form Card",
+        "World Card"
       ]
     }
   ],
@@ -218,7 +220,7 @@
           "Spells_1": {
             "title": "Spells_1",
             "isHidden": "yes",
-            "height": "SMALL",
+            "height": "TINY",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
@@ -233,7 +235,7 @@
           "Spells_2": {
             "title": "Spells_2",
             "isHidden": "yes",
-            "height": "SMALL",
+            "height": "TINY",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
@@ -248,7 +250,7 @@
           "Spells_3": {
             "title": "Spells_3",
             "isHidden": "yes",
-            "height": "SMALL",
+            "height": "TINY",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
@@ -263,7 +265,7 @@
           "Spells_4": {
             "title": "Spells_4",
             "isHidden": "yes",
-            "height": "SMALL",
+            "height": "TINY",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
@@ -278,7 +280,7 @@
           "Spells_5": {
             "title": "Spells_5",
             "isHidden": "yes",
-            "height": "SMALL",
+            "height": "TINY",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
@@ -293,7 +295,7 @@
           "Spells_6": {
             "title": "Spells_6",
             "isHidden": "yes",
-            "height": "SMALL",
+            "height": "TINY",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
