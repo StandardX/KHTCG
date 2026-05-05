@@ -18,22 +18,32 @@
     "cardBack": "https://static.wikia.nocookie.net/yugioh/images/9/95/SlifertheSkyDragon-GBI-AE-Back.png",
     "cardBackColor": "#C18264"
   },
-  "deckBuilding": {
-    "mainFilters": [
-      "type",
-      "archetype",
-      "level"
-    ],
-    "formats": [
-      {
-        "title": "Classic",
-        "gameplay": "Classic",
-        "customCategories": [
-          "Extra deck"
-        ]
-      }
-    ]
-  },
+"deckBuilding": {
+  "mainFilters": [
+    "type",
+    "archetype",
+    "level"
+  ],
+  "formats": [
+    {
+      "title": "Classic",
+      "gameplay": "Classic",
+      "customCategories": [
+        "Extra deck"
+      ]
+    }
+  ],
+  "decks": {
+    "main": {
+      "min": 10,
+      "max": 30
+    },
+    "extra": {
+      "min": 0,
+      "max": 15
+    }
+  }
+}
   "gameplay": {
     "Classic": {
       "mulligan": {
@@ -44,8 +54,8 @@
         "drawNewSelectedCards": false
       },
       "newTurn": {
-        "drawOnStart": false,
-        "sharedTurn": false,
+        "drawOnStart": true,
+        "sharedTurn": true,
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
@@ -81,7 +91,7 @@
             {
               "direction": "column",
               "style": {
-                "width": "70vh",
+                "width": "120vh",
                 "marginRight": "auto",
                 "marginLeft": "auto"
               },
