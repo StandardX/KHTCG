@@ -62,14 +62,13 @@
           "Monsters_3",
           "Monsters_4",
           "Monsters_5",
+          "Monsters_6"
           "Spells_1",
           "Spells_2",
           "Spells_3",
           "Spells_4",
           "Spells_5",
-          "Extra_Monster_1",
-          "Extra_Monster_2",
-          "Field",
+          "Spells_6
           "Extra_Deck"
         ],
         "layout": {
@@ -142,7 +141,13 @@
                       }
                     },
                     {
-                      "section": "Monsters_5"
+                      "section": "Monsters_5",
+                      "style": {
+                        "marginRight": "4vh"
+                      }        
+                    },
+                    {
+                        "section": "Monsters_6"
                     }
                   ]
                 },
@@ -174,7 +179,13 @@
                       }
                     },
                     {
-                      "section": "Spells_5"
+                      "section": "Spells_5",
+                      "style": {
+                        "marginRight": "4vh"
+                      }
+                    },
+                    {
+                      "section": "Spells_6"
                     }
                   ]
                 }
@@ -211,7 +222,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
+            "displayedTitle": "Back Row",
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
@@ -226,7 +237,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
+            "displayedTitle": "Back Row",
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
@@ -241,7 +252,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
+            "displayedTitle": "Back Row",
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
@@ -256,7 +267,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
+            "displayedTitle": "Back Row",
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
@@ -271,7 +282,22 @@
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Spell/Trap",
+            "displayedTitle": "Back Row",
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": true
+          },
+          "Spells_6": {
+            "title": "Spells_6",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Back Row",
             "enterTapped": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": true,
@@ -286,7 +312,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
+            "displayedTitle": "Front Row",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
@@ -301,7 +327,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
+            "displayedTitle": "Front Row",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
@@ -316,7 +342,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
+            "displayedTitle": "Front Row",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
@@ -331,7 +357,7 @@
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
+            "displayedTitle": "Front Row",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
@@ -346,7 +372,22 @@
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Monster",
+            "displayedTitle": "Front Row",
+            "noQuickActions": true,
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Monsters_6": {
+            "title": "Monsters_6",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "NONE",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Front Row",
             "noQuickActions": true,
             "enterTapped": false,
             "isGroupForbidden": false,
