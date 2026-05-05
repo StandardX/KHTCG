@@ -133,7 +133,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "Avatar Card",
         "cost": 0,
         "image": "https://github.com/StandardX/KHTCG/blob/main/tcg/Cards/AC/image3.png?raw=true",
         "isHorizontal": false
